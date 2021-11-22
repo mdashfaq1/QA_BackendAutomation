@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="3" >
+ <listeners>
+    <listener class-name="com.qa.api.challenge.report.ReportListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.qa.api.challenge.tests.HotelSearchAsyncTest"/>
+      <class name="com.qa.api.challenge.tests.CurrencyListApiTest"/>
+      <class name="com.qa.api.challenge.tests.CurrencyListApiSchemaTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

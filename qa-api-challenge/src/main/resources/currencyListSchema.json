@@ -1,0 +1,569 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "base": {
+      "type": "object",
+      "properties": {
+        "symbol": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "name_ar": {
+          "type": "string"
+        },
+        "symbol_native": {
+          "type": "string"
+        },
+        "decimal_digits": {
+          "type": "integer"
+        },
+        "rounding": {
+          "type": "integer"
+        },
+        "code": {
+          "type": "string"
+        },
+        "name_plural": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "symbol",
+        "name",
+        "name_ar",
+        "symbol_native",
+        "decimal_digits",
+        "rounding",
+        "code",
+        "name_plural"
+      ]
+    },
+    "equivalent": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "integer"
+            },
+            "Rate": {
+              "type": "integer"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "name_ar": {
+              "type": "string"
+            },
+            "symbol_native": {
+              "type": "string"
+            },
+            "decimal_digits": {
+              "type": "integer"
+            },
+            "rounding": {
+              "type": "integer"
+            },
+            "code": {
+              "type": "string"
+            },
+            "name_plural": {
+              "type": "string"
+            },
+            "rate": {
+              "type": "number"
+            },
+            "Rate": {
+              "type": "number"
+            },
+            "date": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "name",
+            "name_ar",
+            "symbol_native",
+            "decimal_digits",
+            "rounding",
+            "code",
+            "name_plural",
+            "rate",
+            "Rate",
+            "date"
+          ]
+        }
+      ]
+    },
+    "failed": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "base",
+    "equivalent",
+    "failed"
+  ]
+}

@@ -1,0 +1,1420 @@
+2021-11-22 04:31:57,559  INFO [main] ReportListener:17 - Test suite started
+2021-11-22 04:31:57,619  INFO [main] ReportListener:28 - test_search_async_with_placeId -> Test case execution Started
+2021-11-22 04:32:06,625  INFO [main] HotelSearchSyncUtil:36 - Automcomplete Request url: /api/enigma/autocomplete
+2021-11-22 04:32:06,717  INFO [main] HotelSearchSyncUtil:37 - Automcomplete API Response: {
+    "locations": [
+        {
+            "name": "Bangalore",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJbU60yXAWrjsR4E9-UejD3_g",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "City",
+                "typeNameAr": "مدينة"
+            }
+        },
+        {
+            "name": "Bangalore international airport",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJz2E4UUUdrjsRqLNQsZ45je0",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Airport",
+                "typeNameAr": "المطار"
+            }
+        },
+        {
+            "name": "Bangalore Railway Station Back Gate",
+            "city": "Bengaluru",
+            "country": "Karnataka",
+            "displayType": "Location",
+            "placeId": "ChIJx73smxsWrjsR7eKL6n2eOP0",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Palace",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Cant",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJPRoKV1wWrjsRbvQCTzLBlf8",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Train Station",
+                "typeNameAr": "محطة قطار"
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1036319,
+            "name": "Caspia Hotel Bangalore Whitefield",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4098242/z_10.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.98176,
+            "longitude": 77.70887,
+            "isActive": true
+        },
+        {
+            "hotelId": 1744326,
+            "name": "Temple Tree Hotel",
+            "city": "Bangalore",
+            "country": "Hong Kong",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/22cee5af-2248-475c-b1e9-109f1e23b05e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.93866,
+            "longitude": 77.60161,
+            "isActive": true
+        },
+        {
+            "hotelId": 1434468,
+            "name": "OYO 533 Hotel Felicity Inn",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6658783/1_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.95735,
+            "longitude": 77.64316,
+            "isActive": true
+        },
+        {
+            "hotelId": 1425775,
+            "name": "OYO Rooms Vijayanagar",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/928b4dec-1cf2-4807-8d3a-2ac8aba0338d.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.97515,
+            "longitude": 77.54833,
+            "isActive": true
+        },
+        {
+            "hotelId": 1344473,
+            "name": "Ayurvedagram Heritage Wellness Center",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5950464/z_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.9689,
+            "longitude": 77.79933,
+            "isActive": true
+        }
+    ]
+}
+2021-11-22 04:32:06,747  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":2,"kidsAges":[2]}],"checkIn":"2021-11-28","placeId":"ChIJbU60yXAWrjsR4E9-UejD3_g","checkOut":"2021-11-30"}
+2021-11-22 04:32:09,099  INFO [main] HotelSearchAsyncTest:59 - searchResponse: {
+    "sId": "c0bddc24-4e43-4156-a6f0-d95cb9c8af64"
+}
+2021-11-22 04:32:09,101  INFO [main] ReportListener:34 - test_search_async_with_placeId -> Test case Passed
+2021-11-22 04:32:09,104  INFO [main] ReportListener:28 - test_search_async_with_query -> Test case execution Started
+2021-11-22 04:32:10,824  INFO [main] HotelSearchSyncUtil:63 - Automcomplete Request url: /api/enigma/autocomplete
+2021-11-22 04:32:10,834  INFO [main] HotelSearchSyncUtil:64 - Automcomplete API Response: {
+    "locations": [
+        {
+            "name": "Bangalore",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJbU60yXAWrjsR4E9-UejD3_g",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "City",
+                "typeNameAr": "مدينة"
+            }
+        },
+        {
+            "name": "Bangalore international airport",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJz2E4UUUdrjsRqLNQsZ45je0",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Airport",
+                "typeNameAr": "المطار"
+            }
+        },
+        {
+            "name": "Bangalore Railway Station Back Gate",
+            "city": "Bengaluru",
+            "country": "Karnataka",
+            "displayType": "Location",
+            "placeId": "ChIJx73smxsWrjsR7eKL6n2eOP0",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Palace",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Cant",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJPRoKV1wWrjsRbvQCTzLBlf8",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Train Station",
+                "typeNameAr": "محطة قطار"
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1036319,
+            "name": "Caspia Hotel Bangalore Whitefield",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4098242/z_10.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.98176,
+            "longitude": 77.70887,
+            "isActive": true
+        },
+        {
+            "hotelId": 1744326,
+            "name": "Temple Tree Hotel",
+            "city": "Bangalore",
+            "country": "Hong Kong",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/22cee5af-2248-475c-b1e9-109f1e23b05e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.93866,
+            "longitude": 77.60161,
+            "isActive": true
+        },
+        {
+            "hotelId": 1434468,
+            "name": "OYO 533 Hotel Felicity Inn",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6658783/1_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.95735,
+            "longitude": 77.64316,
+            "isActive": true
+        },
+        {
+            "hotelId": 1425775,
+            "name": "OYO Rooms Vijayanagar",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/928b4dec-1cf2-4807-8d3a-2ac8aba0338d.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.97515,
+            "longitude": 77.54833,
+            "isActive": true
+        },
+        {
+            "hotelId": 1344473,
+            "name": "Ayurvedagram Heritage Wellness Center",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5950464/z_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.9689,
+            "longitude": 77.79933,
+            "isActive": true
+        }
+    ]
+}
+2021-11-22 04:32:12,412  INFO [main] HotelSearchSyncUtil:70 - First Hotel name: Caspia Hotel Bangalore Whitefield
+2021-11-22 04:32:12,415  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":2,"kidsAges":[2]}],"checkIn":"2021-11-28","query":"Caspia+Hotel+Bangalore+Whitefield","checkOut":"2021-11-30"}
+2021-11-22 04:32:14,467  INFO [main] HotelSearchAsyncTest:88 - searchResponse: {
+    "sId": "83407fc8-1c6a-4bdc-b0b1-1e371a33a3f6"
+}
+2021-11-22 04:32:14,468  INFO [main] ReportListener:34 - test_search_async_with_query -> Test case Passed
+2021-11-22 04:32:14,473  INFO [main] ReportListener:28 - test_search_async_with_placeId_withMultipleRooms -> Test case execution Started
+2021-11-22 04:32:16,356  INFO [main] HotelSearchSyncUtil:36 - Automcomplete Request url: /api/enigma/autocomplete
+2021-11-22 04:32:16,362  INFO [main] HotelSearchSyncUtil:37 - Automcomplete API Response: {
+    "locations": [
+        {
+            "name": "Bangalore",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJbU60yXAWrjsR4E9-UejD3_g",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "City",
+                "typeNameAr": "مدينة"
+            }
+        },
+        {
+            "name": "Bangalore international airport",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJz2E4UUUdrjsRqLNQsZ45je0",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Airport",
+                "typeNameAr": "المطار"
+            }
+        },
+        {
+            "name": "Bangalore Railway Station Back Gate",
+            "city": "Bengaluru",
+            "country": "Karnataka",
+            "displayType": "Location",
+            "placeId": "ChIJx73smxsWrjsR7eKL6n2eOP0",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Palace",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Cant",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJPRoKV1wWrjsRbvQCTzLBlf8",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Train Station",
+                "typeNameAr": "محطة قطار"
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1036319,
+            "name": "Caspia Hotel Bangalore Whitefield",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4098242/z_10.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.98176,
+            "longitude": 77.70887,
+            "isActive": true
+        },
+        {
+            "hotelId": 1744326,
+            "name": "Temple Tree Hotel",
+            "city": "Bangalore",
+            "country": "Hong Kong",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/22cee5af-2248-475c-b1e9-109f1e23b05e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.93866,
+            "longitude": 77.60161,
+            "isActive": true
+        },
+        {
+            "hotelId": 1434468,
+            "name": "OYO 533 Hotel Felicity Inn",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6658783/1_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.95735,
+            "longitude": 77.64316,
+            "isActive": true
+        },
+        {
+            "hotelId": 1425775,
+            "name": "OYO Rooms Vijayanagar",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/928b4dec-1cf2-4807-8d3a-2ac8aba0338d.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.97515,
+            "longitude": 77.54833,
+            "isActive": true
+        },
+        {
+            "hotelId": 1344473,
+            "name": "Ayurvedagram Heritage Wellness Center",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5950464/z_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.9689,
+            "longitude": 77.79933,
+            "isActive": true
+        }
+    ]
+}
+2021-11-22 04:32:16,365  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":2,"kidsAges":[]},{"adultsCount":2,"kidsAges":[]},{"adultsCount":2,"kidsAges":[]}],"checkIn":"2021-11-28","placeId":"ChIJbU60yXAWrjsR4E9-UejD3_g","checkOut":"2021-11-30"}
+2021-11-22 04:32:18,650  INFO [main] HotelSearchAsyncTest:127 - searchResponse: {
+    "sId": "2abfb44e-cc12-4d67-bb59-0b4073326b82"
+}
+2021-11-22 04:32:18,651  INFO [main] ReportListener:34 - test_search_async_with_placeId_withMultipleRooms -> Test case Passed
+2021-11-22 04:32:18,652  INFO [main] ReportListener:28 - test_search_async_with_placeId_withMax_8_Adult_0_Kids -> Test case execution Started
+2021-11-22 04:32:20,508  INFO [main] HotelSearchSyncUtil:36 - Automcomplete Request url: /api/enigma/autocomplete
+2021-11-22 04:32:20,513  INFO [main] HotelSearchSyncUtil:37 - Automcomplete API Response: {
+    "locations": [
+        {
+            "name": "Bangalore",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJbU60yXAWrjsR4E9-UejD3_g",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "City",
+                "typeNameAr": "مدينة"
+            }
+        },
+        {
+            "name": "Bangalore international airport",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJz2E4UUUdrjsRqLNQsZ45je0",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Airport",
+                "typeNameAr": "المطار"
+            }
+        },
+        {
+            "name": "Bangalore Railway Station Back Gate",
+            "city": "Bengaluru",
+            "country": "Karnataka",
+            "displayType": "Location",
+            "placeId": "ChIJx73smxsWrjsR7eKL6n2eOP0",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Palace",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Cant",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJPRoKV1wWrjsRbvQCTzLBlf8",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Train Station",
+                "typeNameAr": "محطة قطار"
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1036319,
+            "name": "Caspia Hotel Bangalore Whitefield",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4098242/z_10.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.98176,
+            "longitude": 77.70887,
+            "isActive": true
+        },
+        {
+            "hotelId": 1744326,
+            "name": "Temple Tree Hotel",
+            "city": "Bangalore",
+            "country": "Hong Kong",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/22cee5af-2248-475c-b1e9-109f1e23b05e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.93866,
+            "longitude": 77.60161,
+            "isActive": true
+        },
+        {
+            "hotelId": 1434468,
+            "name": "OYO 533 Hotel Felicity Inn",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6658783/1_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.95735,
+            "longitude": 77.64316,
+            "isActive": true
+        },
+        {
+            "hotelId": 1425775,
+            "name": "OYO Rooms Vijayanagar",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/928b4dec-1cf2-4807-8d3a-2ac8aba0338d.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.97515,
+            "longitude": 77.54833,
+            "isActive": true
+        },
+        {
+            "hotelId": 1344473,
+            "name": "Ayurvedagram Heritage Wellness Center",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5950464/z_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.9689,
+            "longitude": 77.79933,
+            "isActive": true
+        }
+    ]
+}
+2021-11-22 04:32:20,516  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":8,"kidsAges":[]}],"checkIn":"2021-11-28","placeId":"ChIJbU60yXAWrjsR4E9-UejD3_g","checkOut":"2021-11-30"}
+2021-11-22 04:32:22,555  INFO [main] HotelSearchAsyncTest:157 - searchResponse: {
+    "sId": "e7da4148-e9ca-4ffe-9480-4140a16ef2a6"
+}
+2021-11-22 04:32:22,556  INFO [main] ReportListener:34 - test_search_async_with_placeId_withMax_8_Adult_0_Kids -> Test case Passed
+2021-11-22 04:32:22,557  INFO [main] ReportListener:28 - test_search_async_with_placeId_with_1_Adult_Max_7_Kids -> Test case execution Started
+2021-11-22 04:32:24,367  INFO [main] HotelSearchSyncUtil:36 - Automcomplete Request url: /api/enigma/autocomplete
+2021-11-22 04:32:24,372  INFO [main] HotelSearchSyncUtil:37 - Automcomplete API Response: {
+    "locations": [
+        {
+            "name": "Bangalore",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJbU60yXAWrjsR4E9-UejD3_g",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "City",
+                "typeNameAr": "مدينة"
+            }
+        },
+        {
+            "name": "Bangalore international airport",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJz2E4UUUdrjsRqLNQsZ45je0",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Airport",
+                "typeNameAr": "المطار"
+            }
+        },
+        {
+            "name": "Bangalore Railway Station Back Gate",
+            "city": "Bengaluru",
+            "country": "Karnataka",
+            "displayType": "Location",
+            "placeId": "ChIJx73smxsWrjsR7eKL6n2eOP0",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Palace",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJN1ZKKUkWrjsRzxIVM363-LE",
+            "source": "google",
+            "googleType": null
+        },
+        {
+            "name": "Bangalore Cant",
+            "city": "Karnataka",
+            "country": "India",
+            "displayType": "Location",
+            "placeId": "ChIJPRoKV1wWrjsRbvQCTzLBlf8",
+            "source": "google",
+            "googleType": {
+                "typeNameEn": "Train Station",
+                "typeNameAr": "محطة قطار"
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1036319,
+            "name": "Caspia Hotel Bangalore Whitefield",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4098242/z_10.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.98176,
+            "longitude": 77.70887,
+            "isActive": true
+        },
+        {
+            "hotelId": 1744326,
+            "name": "Temple Tree Hotel",
+            "city": "Bangalore",
+            "country": "Hong Kong",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/22cee5af-2248-475c-b1e9-109f1e23b05e.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.93866,
+            "longitude": 77.60161,
+            "isActive": true
+        },
+        {
+            "hotelId": 1434468,
+            "name": "OYO 533 Hotel Felicity Inn",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6658783/1_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.95735,
+            "longitude": 77.64316,
+            "isActive": true
+        },
+        {
+            "hotelId": 1425775,
+            "name": "OYO Rooms Vijayanagar",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://az712897.vo.msecnd.net/images/full/928b4dec-1cf2-4807-8d3a-2ac8aba0338d.jpeg",
+            "displayType": "Hotel",
+            "latitude": 12.97515,
+            "longitude": 77.54833,
+            "isActive": true
+        },
+        {
+            "hotelId": 1344473,
+            "name": "Ayurvedagram Heritage Wellness Center",
+            "city": "Bangalore",
+            "country": "India",
+            "thumbnail_url": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5950464/z_1.jpg",
+            "displayType": "Hotel",
+            "latitude": 12.9689,
+            "longitude": 77.79933,
+            "isActive": true
+        }
+    ]
+}
+2021-11-22 04:32:24,376  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":1,"kidsAges":[2,4,5,1,3,6,10]}],"checkIn":"2021-11-28","placeId":"ChIJbU60yXAWrjsR4E9-UejD3_g","checkOut":"2021-11-30"}
+2021-11-22 04:32:26,282  INFO [main] HotelSearchAsyncTest:187 - searchResponse: {
+    "sId": "3893bd37-80fb-4114-9917-c2c044979f55"
+}
+2021-11-22 04:32:26,283  INFO [main] ReportListener:34 - test_search_async_with_placeId_with_1_Adult_Max_7_Kids -> Test case Passed
+2021-11-22 04:32:26,284  INFO [main] ReportListener:28 - test_search_async_returns_error_when_placeId_blank -> Test case execution Started
+2021-11-22 04:32:26,285  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":1,"kidsAges":[]}],"checkIn":"2021-11-28","placeId":"","checkOut":"2021-11-30"}
+2021-11-22 04:32:28,213  INFO [main] HotelSearchAsyncTest:211 - searchResponse: {
+    "timestamp": "2021-11-21T23:02:28.078+00:00",
+    "path": "/search/async",
+    "status": 400,
+    "error": "Bad Request",
+    "message": null,
+    "requestId": "5c53140a-2",
+    "traceId": "5c19caaf0c342582",
+    "serviceName": "hotel-core-service",
+    "errorCodes": [
+        "1014"
+    ],
+    "errorType": "Validation error",
+    "code": 106
+}
+2021-11-22 04:32:28,214  INFO [main] ReportListener:34 - test_search_async_returns_error_when_placeId_blank -> Test case Passed
+2021-11-22 04:32:28,216  INFO [main] ReportListener:28 - test_search_async_returns_error_when_AdultCount_is_zero -> Test case execution Started
+2021-11-22 04:32:28,217  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":0,"kidsAges":[]}],"checkIn":"2021-11-28","placeId":"sampleplaceId","checkOut":"2021-11-30"}
+2021-11-22 04:32:30,170  INFO [main] HotelSearchAsyncTest:232 - searchResponse: {
+    "timestamp": "2021-11-21T23:02:29.993+00:00",
+    "path": "/search/async",
+    "status": 400,
+    "error": "Bad Request",
+    "message": null,
+    "requestId": "6d082360-2",
+    "traceId": "02c9d6d680050487",
+    "serviceName": "hotel-core-service",
+    "errorCodes": [
+        "1023"
+    ],
+    "errorType": "Validation error",
+    "code": 106
+}
+2021-11-22 04:32:30,171  INFO [main] ReportListener:34 - test_search_async_returns_error_when_AdultCount_is_zero -> Test case Passed
+2021-11-22 04:32:30,172  INFO [main] ReportListener:28 - test_search_async_returns_error_when_placeId_and_query_both_not_present -> Test case execution Started
+2021-11-22 04:32:30,173  INFO [main] HotelSearchSyncUtil:102 - Request Payload: {"roomsInfo":[{"adultsCount":0,"kidsAges":[]}],"checkIn":"2021-11-28","checkOut":"2021-11-30"}
+2021-11-22 04:32:31,847  INFO [main] HotelSearchAsyncTest:253 - searchResponse: {
+    "timestamp": "2021-11-21T23:02:31.717+00:00",
+    "path": "/search/async",
+    "status": 400,
+    "error": "Bad Request",
+    "message": null,
+    "requestId": "e6ee57fa-1",
+    "traceId": "ede04f7762cdd8a6",
+    "serviceName": "hotel-core-service",
+    "errorCodes": [
+        "1004",
+        "1023"
+    ],
+    "errorType": "Validation error",
+    "code": 106
+}
+2021-11-22 04:32:31,848  INFO [main] ReportListener:34 - test_search_async_returns_error_when_placeId_and_query_both_not_present -> Test case Passed
+2021-11-22 04:32:31,850  INFO [main] ReportListener:28 - test_currencylist_api_response_is_200_Ok -> Test case execution Started
+2021-11-22 04:32:33,359  INFO [main] CurrencyListApiTest:38 - Request url: /api/system/currency/list
+2021-11-22 04:32:33,363  INFO [main] CurrencyListApiTest:39 - Response: {
+    "base": {
+        "symbol": "SAR",
+        "name": "Saudi Riyal",
+        "name_ar": "ريال سعودي",
+        "symbol_native": "ر.س.‏",
+        "decimal_digits": 2,
+        "rounding": 0,
+        "code": "SAR",
+        "name_plural": "Saudi riyals"
+    },
+    "equivalent": [
+        {
+            "symbol": "SAR",
+            "name": "Saudi Riyal",
+            "name_ar": "ريال سعودي",
+            "symbol_native": "ر.س.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "SAR",
+            "name_plural": "Saudi riyals",
+            "rate": 1,
+            "Rate": 1,
+            "date": "2021-11-20 10:00:43"
+        },
+        {
+            "symbol": "AED",
+            "name": "United Arab Emirates Dirham",
+            "name_ar": "درهم اماراتي",
+            "symbol_native": "د.إ.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "AED",
+            "name_plural": "UAE dirhams",
+            "rate": 0.979141,
+            "Rate": 0.979141,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "QAR",
+            "name": "Qatari Rial",
+            "name_ar": "ريال قطري",
+            "symbol_native": "ر.ق.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "QAR",
+            "name_plural": "Qatari rials",
+            "rate": 0.970637,
+            "Rate": 0.970637,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "KWD",
+            "name": "Kuwaiti Dinar",
+            "name_ar": "دينار كويتي",
+            "symbol_native": "د.ك.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "KWD",
+            "name_plural": "Kuwaiti dinars",
+            "rate": 0.080665,
+            "Rate": 0.080665,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "BHD",
+            "name": "Bahraini Dinar",
+            "name_ar": "دينار بحريني",
+            "symbol_native": "د.ب.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "BHD",
+            "name_plural": "Bahraini dinars",
+            "rate": 0.100538,
+            "Rate": 0.100538,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "$",
+            "name": "US Dollar",
+            "name_ar": "دولار أمريكي",
+            "symbol_native": "$",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "USD",
+            "name_plural": "US dollars",
+            "rate": 0.266582,
+            "Rate": 0.266582,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "€",
+            "name": "Euro",
+            "name_ar": "يورو",
+            "symbol_native": "€",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EUR",
+            "name_plural": "euros",
+            "rate": 0.236326,
+            "Rate": 0.236326,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "name_ar": "الجنيه الاسترليني",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling",
+            "rate": 0.198276,
+            "Rate": 0.198276,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "EGP",
+            "name": "Egyptian Pound",
+            "name_ar": "جنيه مصري",
+            "symbol_native": "ج.م.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EGP",
+            "name_plural": "Egyptian pounds",
+            "rate": 4.186891,
+            "Rate": 4.186891,
+            "date": "2021-11-20 10:01:17"
+        },
+        {
+            "symbol": "₹",
+            "name": "Indian Rupee",
+            "name_ar": "روبية هندية",
+            "symbol_native": "₹",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "INR",
+            "name_plural": "Indian rupees",
+            "rate": 19.809966,
+            "Rate": 19.809966,
+            "date": "2021-11-20 10:01:17"
+        }
+    ],
+    "failed": [
+        
+    ]
+}
+2021-11-22 04:32:33,364  INFO [main] ReportListener:34 - test_currencylist_api_response_is_200_Ok -> Test case Passed
+2021-11-22 04:32:33,365  INFO [main] ReportListener:28 - test_currencylist_api_response_headers -> Test case execution Started
+2021-11-22 04:32:34,968  INFO [main] CurrencyListApiTest:50 - Request url: /api/system/currency/list
+2021-11-22 04:32:34,974  INFO [main] CurrencyListApiTest:51 - Response: {
+    "base": {
+        "symbol": "SAR",
+        "name": "Saudi Riyal",
+        "name_ar": "ريال سعودي",
+        "symbol_native": "ر.س.‏",
+        "decimal_digits": 2,
+        "rounding": 0,
+        "code": "SAR",
+        "name_plural": "Saudi riyals"
+    },
+    "equivalent": [
+        {
+            "symbol": "SAR",
+            "name": "Saudi Riyal",
+            "name_ar": "ريال سعودي",
+            "symbol_native": "ر.س.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "SAR",
+            "name_plural": "Saudi riyals",
+            "rate": 1,
+            "Rate": 1,
+            "date": "2021-11-20 10:00:43"
+        },
+        {
+            "symbol": "AED",
+            "name": "United Arab Emirates Dirham",
+            "name_ar": "درهم اماراتي",
+            "symbol_native": "د.إ.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "AED",
+            "name_plural": "UAE dirhams",
+            "rate": 0.979141,
+            "Rate": 0.979141,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "QAR",
+            "name": "Qatari Rial",
+            "name_ar": "ريال قطري",
+            "symbol_native": "ر.ق.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "QAR",
+            "name_plural": "Qatari rials",
+            "rate": 0.970637,
+            "Rate": 0.970637,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "KWD",
+            "name": "Kuwaiti Dinar",
+            "name_ar": "دينار كويتي",
+            "symbol_native": "د.ك.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "KWD",
+            "name_plural": "Kuwaiti dinars",
+            "rate": 0.080665,
+            "Rate": 0.080665,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "BHD",
+            "name": "Bahraini Dinar",
+            "name_ar": "دينار بحريني",
+            "symbol_native": "د.ب.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "BHD",
+            "name_plural": "Bahraini dinars",
+            "rate": 0.100538,
+            "Rate": 0.100538,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "$",
+            "name": "US Dollar",
+            "name_ar": "دولار أمريكي",
+            "symbol_native": "$",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "USD",
+            "name_plural": "US dollars",
+            "rate": 0.266582,
+            "Rate": 0.266582,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "€",
+            "name": "Euro",
+            "name_ar": "يورو",
+            "symbol_native": "€",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EUR",
+            "name_plural": "euros",
+            "rate": 0.236326,
+            "Rate": 0.236326,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "name_ar": "الجنيه الاسترليني",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling",
+            "rate": 0.198276,
+            "Rate": 0.198276,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "EGP",
+            "name": "Egyptian Pound",
+            "name_ar": "جنيه مصري",
+            "symbol_native": "ج.م.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EGP",
+            "name_plural": "Egyptian pounds",
+            "rate": 4.186891,
+            "Rate": 4.186891,
+            "date": "2021-11-20 10:01:17"
+        },
+        {
+            "symbol": "₹",
+            "name": "Indian Rupee",
+            "name_ar": "روبية هندية",
+            "symbol_native": "₹",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "INR",
+            "name_plural": "Indian rupees",
+            "rate": 19.809966,
+            "Rate": 19.809966,
+            "date": "2021-11-20 10:01:17"
+        }
+    ],
+    "failed": [
+        
+    ]
+}
+2021-11-22 04:32:34,976  INFO [main] ReportListener:34 - test_currencylist_api_response_headers -> Test case Passed
+2021-11-22 04:32:34,977  INFO [main] ReportListener:28 - test_currencylist_api_returns_valid_response -> Test case execution Started
+2021-11-22 04:32:36,937  INFO [main] CurrencyListApiTest:65 - Request url: /api/system/currency/list
+2021-11-22 04:32:36,942  INFO [main] CurrencyListApiTest:66 - Response: {
+    "base": {
+        "symbol": "SAR",
+        "name": "Saudi Riyal",
+        "name_ar": "ريال سعودي",
+        "symbol_native": "ر.س.‏",
+        "decimal_digits": 2,
+        "rounding": 0,
+        "code": "SAR",
+        "name_plural": "Saudi riyals"
+    },
+    "equivalent": [
+        {
+            "symbol": "SAR",
+            "name": "Saudi Riyal",
+            "name_ar": "ريال سعودي",
+            "symbol_native": "ر.س.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "SAR",
+            "name_plural": "Saudi riyals",
+            "rate": 1,
+            "Rate": 1,
+            "date": "2021-11-20 10:00:43"
+        },
+        {
+            "symbol": "AED",
+            "name": "United Arab Emirates Dirham",
+            "name_ar": "درهم اماراتي",
+            "symbol_native": "د.إ.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "AED",
+            "name_plural": "UAE dirhams",
+            "rate": 0.979141,
+            "Rate": 0.979141,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "QAR",
+            "name": "Qatari Rial",
+            "name_ar": "ريال قطري",
+            "symbol_native": "ر.ق.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "QAR",
+            "name_plural": "Qatari rials",
+            "rate": 0.970637,
+            "Rate": 0.970637,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "KWD",
+            "name": "Kuwaiti Dinar",
+            "name_ar": "دينار كويتي",
+            "symbol_native": "د.ك.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "KWD",
+            "name_plural": "Kuwaiti dinars",
+            "rate": 0.080665,
+            "Rate": 0.080665,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "BHD",
+            "name": "Bahraini Dinar",
+            "name_ar": "دينار بحريني",
+            "symbol_native": "د.ب.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "BHD",
+            "name_plural": "Bahraini dinars",
+            "rate": 0.100538,
+            "Rate": 0.100538,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "$",
+            "name": "US Dollar",
+            "name_ar": "دولار أمريكي",
+            "symbol_native": "$",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "USD",
+            "name_plural": "US dollars",
+            "rate": 0.266582,
+            "Rate": 0.266582,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "€",
+            "name": "Euro",
+            "name_ar": "يورو",
+            "symbol_native": "€",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EUR",
+            "name_plural": "euros",
+            "rate": 0.236326,
+            "Rate": 0.236326,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "name_ar": "الجنيه الاسترليني",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling",
+            "rate": 0.198276,
+            "Rate": 0.198276,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "EGP",
+            "name": "Egyptian Pound",
+            "name_ar": "جنيه مصري",
+            "symbol_native": "ج.م.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EGP",
+            "name_plural": "Egyptian pounds",
+            "rate": 4.186891,
+            "Rate": 4.186891,
+            "date": "2021-11-20 10:01:17"
+        },
+        {
+            "symbol": "₹",
+            "name": "Indian Rupee",
+            "name_ar": "روبية هندية",
+            "symbol_native": "₹",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "INR",
+            "name_plural": "Indian rupees",
+            "rate": 19.809966,
+            "Rate": 19.809966,
+            "date": "2021-11-20 10:01:17"
+        }
+    ],
+    "failed": [
+        
+    ]
+}
+2021-11-22 04:32:36,959  INFO [main] ReportListener:34 - test_currencylist_api_returns_valid_response -> Test case Passed
+2021-11-22 04:32:36,961  INFO [main] ReportListener:28 - test_currencylist_api_base_node -> Test case execution Started
+2021-11-22 04:32:38,503  INFO [main] CurrencyListApiTest:86 - Request url: /api/system/currency/list
+2021-11-22 04:32:38,506  INFO [main] CurrencyListApiTest:87 - Response: {
+    "base": {
+        "symbol": "SAR",
+        "name": "Saudi Riyal",
+        "name_ar": "ريال سعودي",
+        "symbol_native": "ر.س.‏",
+        "decimal_digits": 2,
+        "rounding": 0,
+        "code": "SAR",
+        "name_plural": "Saudi riyals"
+    },
+    "equivalent": [
+        {
+            "symbol": "SAR",
+            "name": "Saudi Riyal",
+            "name_ar": "ريال سعودي",
+            "symbol_native": "ر.س.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "SAR",
+            "name_plural": "Saudi riyals",
+            "rate": 1,
+            "Rate": 1,
+            "date": "2021-11-20 10:00:43"
+        },
+        {
+            "symbol": "AED",
+            "name": "United Arab Emirates Dirham",
+            "name_ar": "درهم اماراتي",
+            "symbol_native": "د.إ.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "AED",
+            "name_plural": "UAE dirhams",
+            "rate": 0.979141,
+            "Rate": 0.979141,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "QAR",
+            "name": "Qatari Rial",
+            "name_ar": "ريال قطري",
+            "symbol_native": "ر.ق.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "QAR",
+            "name_plural": "Qatari rials",
+            "rate": 0.970637,
+            "Rate": 0.970637,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "KWD",
+            "name": "Kuwaiti Dinar",
+            "name_ar": "دينار كويتي",
+            "symbol_native": "د.ك.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "KWD",
+            "name_plural": "Kuwaiti dinars",
+            "rate": 0.080665,
+            "Rate": 0.080665,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "BHD",
+            "name": "Bahraini Dinar",
+            "name_ar": "دينار بحريني",
+            "symbol_native": "د.ب.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "BHD",
+            "name_plural": "Bahraini dinars",
+            "rate": 0.100538,
+            "Rate": 0.100538,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "$",
+            "name": "US Dollar",
+            "name_ar": "دولار أمريكي",
+            "symbol_native": "$",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "USD",
+            "name_plural": "US dollars",
+            "rate": 0.266582,
+            "Rate": 0.266582,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "€",
+            "name": "Euro",
+            "name_ar": "يورو",
+            "symbol_native": "€",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EUR",
+            "name_plural": "euros",
+            "rate": 0.236326,
+            "Rate": 0.236326,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "name_ar": "الجنيه الاسترليني",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling",
+            "rate": 0.198276,
+            "Rate": 0.198276,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "EGP",
+            "name": "Egyptian Pound",
+            "name_ar": "جنيه مصري",
+            "symbol_native": "ج.م.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EGP",
+            "name_plural": "Egyptian pounds",
+            "rate": 4.186891,
+            "Rate": 4.186891,
+            "date": "2021-11-20 10:01:17"
+        },
+        {
+            "symbol": "₹",
+            "name": "Indian Rupee",
+            "name_ar": "روبية هندية",
+            "symbol_native": "₹",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "INR",
+            "name_plural": "Indian rupees",
+            "rate": 19.809966,
+            "Rate": 19.809966,
+            "date": "2021-11-20 10:01:17"
+        }
+    ],
+    "failed": [
+        
+    ]
+}
+2021-11-22 04:32:38,887  INFO [main] ReportListener:34 - test_currencylist_api_base_node -> Test case Passed
+2021-11-22 04:32:38,888  INFO [main] ReportListener:28 - test_currencylist_api_USDollar_equivalent -> Test case execution Started
+2021-11-22 04:32:40,373  INFO [main] CurrencyListApiTest:110 - Request url: /api/system/currency/list
+2021-11-22 04:32:40,379  INFO [main] CurrencyListApiTest:111 - Response: {
+    "base": {
+        "symbol": "SAR",
+        "name": "Saudi Riyal",
+        "name_ar": "ريال سعودي",
+        "symbol_native": "ر.س.‏",
+        "decimal_digits": 2,
+        "rounding": 0,
+        "code": "SAR",
+        "name_plural": "Saudi riyals"
+    },
+    "equivalent": [
+        {
+            "symbol": "SAR",
+            "name": "Saudi Riyal",
+            "name_ar": "ريال سعودي",
+            "symbol_native": "ر.س.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "SAR",
+            "name_plural": "Saudi riyals",
+            "rate": 1,
+            "Rate": 1,
+            "date": "2021-11-20 10:00:43"
+        },
+        {
+            "symbol": "AED",
+            "name": "United Arab Emirates Dirham",
+            "name_ar": "درهم اماراتي",
+            "symbol_native": "د.إ.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "AED",
+            "name_plural": "UAE dirhams",
+            "rate": 0.979141,
+            "Rate": 0.979141,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "QAR",
+            "name": "Qatari Rial",
+            "name_ar": "ريال قطري",
+            "symbol_native": "ر.ق.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "QAR",
+            "name_plural": "Qatari rials",
+            "rate": 0.970637,
+            "Rate": 0.970637,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "KWD",
+            "name": "Kuwaiti Dinar",
+            "name_ar": "دينار كويتي",
+            "symbol_native": "د.ك.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "KWD",
+            "name_plural": "Kuwaiti dinars",
+            "rate": 0.080665,
+            "Rate": 0.080665,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "BHD",
+            "name": "Bahraini Dinar",
+            "name_ar": "دينار بحريني",
+            "symbol_native": "د.ب.‏",
+            "decimal_digits": 3,
+            "rounding": 0,
+            "code": "BHD",
+            "name_plural": "Bahraini dinars",
+            "rate": 0.100538,
+            "Rate": 0.100538,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "$",
+            "name": "US Dollar",
+            "name_ar": "دولار أمريكي",
+            "symbol_native": "$",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "USD",
+            "name_plural": "US dollars",
+            "rate": 0.266582,
+            "Rate": 0.266582,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "€",
+            "name": "Euro",
+            "name_ar": "يورو",
+            "symbol_native": "€",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EUR",
+            "name_plural": "euros",
+            "rate": 0.236326,
+            "Rate": 0.236326,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "£",
+            "name": "British Pound Sterling",
+            "name_ar": "الجنيه الاسترليني",
+            "symbol_native": "£",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "GBP",
+            "name_plural": "British pounds sterling",
+            "rate": 0.198276,
+            "Rate": 0.198276,
+            "date": "2021-11-20 10:00:04"
+        },
+        {
+            "symbol": "EGP",
+            "name": "Egyptian Pound",
+            "name_ar": "جنيه مصري",
+            "symbol_native": "ج.م.‏",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "EGP",
+            "name_plural": "Egyptian pounds",
+            "rate": 4.186891,
+            "Rate": 4.186891,
+            "date": "2021-11-20 10:01:17"
+        },
+        {
+            "symbol": "₹",
+            "name": "Indian Rupee",
+            "name_ar": "روبية هندية",
+            "symbol_native": "₹",
+            "decimal_digits": 2,
+            "rounding": 0,
+            "code": "INR",
+            "name_plural": "Indian rupees",
+            "rate": 19.809966,
+            "Rate": 19.809966,
+            "date": "2021-11-20 10:01:17"
+        }
+    ],
+    "failed": [
+        
+    ]
+}
+2021-11-22 04:32:40,440  INFO [main] ReportListener:34 - test_currencylist_api_USDollar_equivalent -> Test case Passed
+2021-11-22 04:32:40,443  INFO [main] ReportListener:28 - test_currencylist_api_response_jsonSchema -> Test case execution Started
+2021-11-22 04:32:42,699  INFO [main] ReportListener:34 - test_currencylist_api_response_jsonSchema -> Test case Passed
+2021-11-22 04:32:43,229  INFO [main] ReportListener:23 - Test suite completed
